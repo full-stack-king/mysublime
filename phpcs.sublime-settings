@@ -1,0 +1,18 @@
+{
+    "phpcs_additional_args": {
+        "--standard": "PSR4",
+        "-n": ""
+    },
+    "extensions_to_blacklist": ["twig.php"],
+    "extensions_to_execute": ["php"],
+    "phpcs_show_gutter_marks": true,
+    "phpcs_outline_for_errors": true,
+    "phpcs_show_errors_in_status": true,
+    "phpcs_sniffer_run": true,
+    "phpcs_command_on_save": true,
+    "phpcs_show_errors_on_save": true,
+    "phpcs_executable_path": "/var/www/html/somnium/startribune/vendor/bin/phpcs",
+    "phpcbf_executable_path": "/var/www/html/somnium/startribune/vendor/bin/phpcbf",
+    "phpmd_executable_path": "/var/www/html/somnium/startribune/vendor/bin/phpmd",
+    "php_cs_fixer_executable_path": "/var/www/html/somnium/startribune/vendor/bin/php-cs-fixer"
+}
